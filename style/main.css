@@ -1,0 +1,147 @@
+body{
+    font-family:"Helvetica Neue",Arial,\5b8b\4f53,sans-serif;
+}
+body,h1{
+    margin:0;
+    padding:0;
+}
+.slide {
+    position:relative;
+}
+.header {
+    background-color:#ff7685; /* pink color */
+}
+.header img{
+    position:absolute;
+}
+.header-logo {
+    top: 15px;
+}
+.header-title {
+    left: 132px;
+    top: 42px;
+}
+.header-content {
+    width: 917px; /* max width */
+    height: 104px;
+    position:relative;
+    margin: 0 auto;
+}
+.slide-content {
+    width: 917px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/* section 1 */
+.sec01 {
+    height: 665px;
+    overflow: hidden;
+    background-color:#ff7685; /* pink color */
+}
+.sec01 img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.sec01 .slide-content {
+    background-image: url('../images/intro-image.png');
+    background-repeat: no-repeat;
+    background-position:center bottom;
+}
+.sub-title {
+    margin-top:27px;
+}
+.download {
+    margin-top:29px;
+    cursor:pointer;
+}
+/* section 2 */
+.sec02 {
+    height: 600px;
+    overflow: hidden;
+    background-color:#faf7f0; /* light yellow color */
+}
+.title01 {
+    display:block;
+    margin:67px auto 0 auto;
+}
+.phones-wrapper{
+    width: 917px;
+    height: 450px;
+    margin: 0 auto;
+    position:relative;
+    overflow:hidden;
+    border-bottom:1px solid #ccbbac;
+}
+.phone {
+    position: absolute;
+}
+.phone-middle {
+    left: 357px;
+    bottom:-52px;
+    z-index:1;
+}
+.phone-left {
+    z-index:0;
+    left: 192px;
+    bottom: -46px;
+}
+.phone-right {
+    right: 186px;
+    bottom: -46px;
+    z-index:0;
+}
+/* section 3 */
+.sec03 {
+    height: 600px;
+    overflow: hidden;
+    background-color:#fff;
+}
+.item {
+    float:left;
+    width: 241px;
+    margin: 64px 97px 0 0;
+}
+.item h3 {
+    color: #ff7685; /* pink color */
+    font-size: 20px;
+    text-align:center;
+}
+.item p {
+    color: #8f847b;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+.last-item {
+    margin-right:0;
+}
+/* section 4 */
+.sec04 {
+    height: 416px;
+    overflow: hidden;
+    background-color:#3e485b;
+}
+.sec04 h2{
+    width:327px;
+    margin:58px auto 0 auto;
+}
+.sec04 .download {
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+}
+.moon {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+.earth {
+    position: absolute;
+    background: #29d0b0;
+    bottom:-774px;
+    left: 18px;
+    width:900px;
+    height:900px;
+    border-radius: 450px;
+}
