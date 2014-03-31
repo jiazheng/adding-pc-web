@@ -1,0 +1,11 @@
+{
+    "name": "adding-pc-web",
+    "version": "0.1.0",
+    "description": "Desktop websites for adding",
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-yui-compressor": "~0.3.3",
+        "grunt-contrib-copy": "~0.5.0",
+        "grunt-text-replace": "~0.3.11"
+    }
+}
